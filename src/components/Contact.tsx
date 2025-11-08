@@ -174,7 +174,7 @@ export default function Contact() {
                     <Phone className="h-6 w-6 text-indigo-600" />
                   </div>
                   <div className="ml-3 text-base text-gray-500">
-                    <p>+1 (450) 231-3366</p>
+                    <p>+1 913 309 7848</p>
                   </div>
                 </div>
               </div>
