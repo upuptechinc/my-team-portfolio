@@ -35,37 +35,37 @@ export default function Navbar() {
               href="#"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Home
+              ホーム
             </a>
             <a
               href="#services"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Services
+              サービス
             </a>
             <a
               href="#showcases"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Showcases
+              実績
             </a>
-            {/* <a
-              href="#skills"
+            <a
+              href="#reviews"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Skills
-            </a> */}
+              お客様の声
+            </a>
             <a
               href="#team"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Team
+              チーム
             </a>
             <a
               href="#contact"
               className="text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Contact
+              お問い合わせ
             </a>
             {/* <button className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-500 transition-all duration-300 hover:scale-105 transform">
               Get Started
@@ -94,23 +94,26 @@ export default function Navbar() {
               href="#services"
               className="block px-3 py-2 text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Services
+              サービス
+            </a>
+            <a
+              href="#reviews"
+              className="block px-3 py-2 text-gray-300 hover:text-indigo-400 transition-colors duration-300"
+            >
+              お客様の声
             </a>
             <a
               href="#team"
               className="block px-3 py-2 text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Team
+              チーム
             </a>
             <a
               href="#contact"
               className="block px-3 py-2 text-gray-300 hover:text-indigo-400 transition-colors duration-300"
             >
-              Contact
+              お問い合わせ
             </a>
-            <button className="w-full text-left px-3 py-2 text-indigo-400 font-medium hover:text-indigo-300 transition-colors duration-300">
-              Get Started
-            </button>
           </div>
         </div>
       )}

@@ -1,4 +1,4 @@
-import { Code2, Github, Linkedin, Twitter } from 'lucide-react';
+import { Code2 } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -6,14 +6,23 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center">
+            <a href="https://en.maebe.jp/" target="_blank" rel="noopener noreferrer" className="flex items-center hover:opacity-80 transition-opacity duration-300">
               <Code2 className="h-8 w-8 text-indigo-500" />
               <span className="ml-2 text-xl font-bold text-white">UpUp&Up Tech Inc</span>
-            </div>
+            </a>
             <p className="mt-4 text-base text-gray-400">
-              Transforming ideas into digital reality. We're a team of passionate developers
-              and designers crafting exceptional digital experiences.
+              アイデアをデジタル現実に変えます。私たちは、卓越したデジタル体験を創造する情熱的な開発者とデザイナーのチームです。
             </p>
+            <div className="mt-4">
+              <a 
+                href="https://en.maebe.jp/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:text-indigo-300 transition-colors duration-200 text-sm font-medium"
+              >
+                公式サイトへ →
+              </a>
+            </div>
             {/* <div className="mt-6 flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-indigo-500">
                 <Github className="h-6 w-6" />
@@ -29,37 +38,37 @@ export default function Footer() {
           
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-              Services
+              サービス
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  Frontend Development
+                  フロントエンド開発
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  Backend Development
+                  バックエンド開発
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  Full Stack Development
+                  フルスタック開発
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  Blockchain Development
+                  ブロックチェーン開発
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  UI/UX Design
+                  UI/UXデザイン
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-base text-gray-400 hover:text-white">
-                  Devops
+                  DevOps
                 </a>
               </li>
             </ul>
@@ -67,27 +76,27 @@ export default function Footer() {
 
           <div>
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
-              Company
+              会社
             </h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="#" className="text-base text-gray-400 hover:text-white">
-                  About
+                <a href="https://en.maebe.jp/" target="_blank" rel="noopener noreferrer" className="text-base text-gray-400 hover:text-white">
+                  公式サイト
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a href="#" className="text-base text-gray-400 hover:text-white">
-                  Blog
+                  会社概要
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a href="#team" className="text-base text-gray-400 hover:text-white">
-                  Careers
+                  採用情報
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-base text-gray-400 hover:text-white">
-                  Contact
+                  お問い合わせ
                 </a>
               </li>
             </ul>
@@ -95,7 +104,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8">
           <p className="text-base text-gray-400 text-center">
-            © 2024 UpUp&Up Tech Inc. All rights reserved.
+            © 2016 UpUp&Up Tech Inc. 全著作権所有。
           </p>
         </div>
       </div>
