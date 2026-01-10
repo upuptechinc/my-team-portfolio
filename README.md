@@ -268,7 +268,6 @@ This project is private and proprietary to UpUp&Up Tech Inc.
 
 - **Ohno Saburo** - Project Manager
 - **Takeshi Kato** - Sr. Software Engineer
-- **Hisami Kurita** - Software Architect
 - **Mamoru Taniya** - Frontend & QA Engineer
 - **Fumiaki Nagase** - Full stack & Web3 Developer
 - **Satoshi Amanuma** - DevOps Engineer
