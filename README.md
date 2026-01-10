@@ -276,8 +276,8 @@ This project is private and proprietary to UpUp&Up Tech Inc.
 ## 📞 Contact
 
 - **Address**: 3-3 Kioichō, Chiyoda City, Tokyo
-- **Phone**: +1 913 309 7848
-- **Email**: passionmuse16@gmail.com
+- **Phone**: +81 55-941-5821
+- **Email**: contact@uptechinc.com
 
 ---
 
