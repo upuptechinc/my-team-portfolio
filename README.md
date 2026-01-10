@@ -272,7 +272,6 @@ This project is private and proprietary to UpUp&Up Tech Inc.
 - **Fumiaki Nagase** - Full stack & Web3 Developer
 - **Satoshi Amanuma** - DevOps Engineer
 - **Ken Suzuki** - Full stack & Android Developer
-- **Mikiya Endo** - UX/UI Designer
 
 ## 📞 Contact
 
